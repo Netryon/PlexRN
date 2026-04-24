@@ -43,7 +43,7 @@ The Boys/
     ...episodes...
 ```
 
-## Repository layout (what you ship)
+## Repository layout
 
 This repository is intentionally split into two audiences:
 
@@ -51,9 +51,8 @@ This repository is intentionally split into two audiences:
 
 Use the **prebuilt Windows folders** included in the repo (folder contains `PlexRN.exe` plus the supporting files needed for that build to run).
 
-- Open the dist folder from the build.
+- Open the Windows folder from the build.
 - Run `PlexRN.exe`.
-- Do **not** delete `logo.png` or `Icon.ico` from that folder if they are present (they are used by the app).
 
 > Folder names may vary by release (for example different packaging options). Pick the user folder you intend to ship and ignore the developer folder below.
 
